@@ -7,8 +7,8 @@
 // oddArray = [1,3];
 
 let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-even = []
-odd = []
+let even = [];
+let odd = [];
 
 for (i = 0; i < num.length; i++) {
         if (num[i] % 2 == 0) {
@@ -18,5 +18,5 @@ for (i = 0; i < num.length; i++) {
             odd.push(num[i]);
 }
 
-console.log(even)
-console.log(odd)
+console.log(even);
+console.log(odd);
