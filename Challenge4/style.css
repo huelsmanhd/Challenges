@@ -1,0 +1,70 @@
+.signUpPage {
+    border: solid 3px black;
+    border-radius: 10px 10px;
+    margin: 20vh;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    float: center;
+    left: 15vw;
+}
+
+.pageheader {
+    position: relative;
+    margin: 25px;
+    text-align: center;
+    font: bold 40px 'Source Code Pro', monospace;
+}
+
+#fields {
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    color: #EAB500;
+}
+
+hr {
+    width: 95%;
+    position: relative;
+    height: 5px;
+    background-color: #EAB500;
+    border: transparent 1px;
+    border-radius: 50%;
+}
+
+form {
+    float: center;
+    position: relative;
+    margin: 2vw 2vh;
+}
+
+.wrapper {
+    position: relative;
+    margin: 1vw 1vh;
+    padding: 1vw 1vh;
+    text-align: center;
+    background-color: gray;
+    border-radius: 10px 10px;
+}
+
+.wrapper label {
+    display: table;
+    position: relative;
+    margin: 1vw 1vh;
+    left: 16vw;
+    flex-direction: column;
+    font: bold 24px 'Source Code Pro', monospace;
+}
+
+.wrapper input {
+    position: relative;
+    display: table;
+    left: 17vw;
+    flex-direction: column;
+    font: 16px 'Inconsolata', monospace;
+}
+
+.clearfix {
+    position: relative;
+    margin: 1vw 1vh;
+    font-family: 'Source Code Pro', monospace;
+}

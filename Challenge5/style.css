@@ -1,0 +1,26 @@
+.calculator {
+    position: relative;
+    float: center;
+    font: bold 30px 'Roboto Mono', monospace; 
+}
+
+.calcDisplay {
+    position: relative;
+    float: center;
+    margin: 3vw 3vh;
+    width: 10vw;
+    height: 3vh;
+}
+
+.calcDisplay input {
+    font: 18px 'Roboto Mono', monospace;
+}
+
+.calcKeys {
+    position: relative;
+    display: table;
+}
+
+.calcKeys button {
+    font: 18px 'Roboto Mono', monospace;
+}

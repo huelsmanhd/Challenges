@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Source+Code+Pro" rel="stylesheet">
+</head>
+<body class='signUpPage'>
+    <h1 class= 'pageheader'>Sign Up Page</h1>
+    <p id='fields'>Please complete all fields</p>
+
+    <hr>
+
+    <form>
+        <div class='wrapper'>
+            <label for='email'>Email</label>
+            <input type='text' placeholder='Enter Email' name='email' required>
+            <label for='pass'>Password</label>
+            <input type='password' placeholder='Password' name='pass' required>
+            <label for='repeatPass'>Re-Enter Password</label>
+            <input type='password' placeholder='Re-Enter Password' name='repeatPass' required>
+
+            <div class='clearfix'>
+                <button type='submit' id='signUpBtn'>Submit</button>
+            </div>
+        </div>
+        <p></p>
+    </form>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
